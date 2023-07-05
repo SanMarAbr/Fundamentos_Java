@@ -1,9 +1,7 @@
-
 package SentenciasControl;
 
-import java.util.Scanner;
-
-public class SentenciasControl{
-    
-
+public class SentenciaIf {
+    public static void main(String[] args) {
+        System.out.println("Sentencia if");
+    }
 }
