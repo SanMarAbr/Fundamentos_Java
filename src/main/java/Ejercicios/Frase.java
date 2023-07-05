@@ -4,6 +4,11 @@
 // Verifica si la frase contiene la palabra "Java" y guarda el resultado en una variable booleana.
 // Extrae los primeros tres caracteres de la frase y guárdalos en una variable.
 // Extrae los últimos tres caracteres de la frase y guárdalos en otra variable.
+
+
+
+// Sanbra
+
 package Ejercicios;
 
 import java.util.Scanner;
@@ -29,8 +34,6 @@ public class Frase {
         System.out.println("Verificación de frase: "+verficaFrase);
         System.out.println("Tres primeros: "+tresPrimeros);
         System.out.println("Tres ulitmos: "+tresUltimos);
-
-        System.out.println("Este es un nuevo mensaje");
 
         scanner.close();
 
