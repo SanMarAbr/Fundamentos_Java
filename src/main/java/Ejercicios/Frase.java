@@ -30,6 +30,8 @@ public class Frase {
         System.out.println("Tres primeros: "+tresPrimeros);
         System.out.println("Tres ulitmos: "+tresUltimos);
 
+        System.out.println("Este es un nuevo mensaje");
+
         scanner.close();
 
     }
