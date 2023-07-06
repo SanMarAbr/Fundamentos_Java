@@ -11,7 +11,7 @@ public class SentenciaIf {
             System.out.println("Condicion Falsa");
         }
 
-        var numero = 3 ;
+        var numero = 10 ;
         var numeroTexto = "Numero desconocido";
 
         if (numero == 1) {
@@ -28,6 +28,7 @@ public class SentenciaIf {
         } else {
             System.out.println(numeroTexto);
         }
+       
         System.out.println("numeroTexto = "+ numeroTexto);
     }
 }
