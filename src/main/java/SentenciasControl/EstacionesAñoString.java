@@ -6,7 +6,7 @@ package SentenciasControl;
 
 import java.util.Scanner;
 
-public class EstacionesAño {
+public class EstacionesAñoString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
