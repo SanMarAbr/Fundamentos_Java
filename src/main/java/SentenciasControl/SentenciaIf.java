@@ -1,5 +1,6 @@
 package SentenciasControl;
 
+//Sanbra
 public class SentenciaIf {
     public static void main(String[] args) {
         // var condicion = true;
