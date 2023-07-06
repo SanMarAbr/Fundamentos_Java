@@ -11,17 +11,23 @@ public class SentenciaIf {
             System.out.println("Condicion Falsa");
         }
 
-        var numero = .0 ;
-        var numeroDesconocido = "no es valido";
+        var numero = 3 ;
+        var numeroTexto = "Numero desconocido";
 
         if (numero == 1) {
-            System.out.println("Numero 1");
-        } else if(numero ==2 ){
-            System.out.println("Numero 2");
-        } else if(numero == 3){
-            System.out.println("Numero 3");
+            numeroTexto = "Numero uno";
+        } 
+        else if(numero ==2 ){
+            numeroTexto = "Numero dos";
+        } 
+        else if(numero == 3){
+            numeroTexto = "Numero tres";
+        } 
+        else if(numero == 4){
+            numeroTexto = "Numero cuatro";
         } else {
-            System.out.println(numeroDesconocido);
+            System.out.println(numeroTexto);
         }
+        System.out.println("numeroTexto = "+ numeroTexto);
     }
 }
