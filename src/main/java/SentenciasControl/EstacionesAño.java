@@ -1,6 +1,6 @@
 //Utilizar sentencia if para mostrar las estaciones del año
 //Por medio de operador logico OR
-//Sanbra
+//Sanbra 1
 
 package SentenciasControl;
 
