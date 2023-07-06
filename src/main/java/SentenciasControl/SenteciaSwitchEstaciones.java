@@ -38,7 +38,9 @@ public class SenteciaSwitchEstaciones {
                 estacion = estacionDesconocida;
                 break;
         }
+
         System.out.println(estacion);
         scanner.close();
+        
     }
 }
