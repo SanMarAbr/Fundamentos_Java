@@ -2,17 +2,19 @@ package SentenciasControl;
 
 public class SentenciaIf {
     public static void main(String[] args) {
-        var condicion = true;
+        // var condicion = true;
 
-        if (condicion == true) {
-            System.out.println("Es verdadera");
-            System.out.println("Nueva linea");
-        } else {
-            System.out.println("Condicion Falsa");
-        }
+        // if (condicion == true) {
+        //     System.out.println("Es verdadera");
+        //     System.out.println("Nueva linea");
+        // } else {
+        //     System.out.println("Condicion Falsa");
+        // }
 
-        var numero = 10 ;
-        var numeroTexto = "Numero desconocido";
+        String numeroTexto = "";
+        String numeroDesconocido = "Numero desconocido";
+
+        var numero = 4 ;
 
         if (numero == 1) {
             numeroTexto = "Numero uno";
@@ -26,9 +28,9 @@ public class SentenciaIf {
         else if(numero == 4){
             numeroTexto = "Numero cuatro";
         } else {
-            System.out.println(numeroTexto);
+            numeroTexto = numeroDesconocido;
         }
        
-        System.out.println("numeroTexto = "+ numeroTexto);
+        System.out.println(numeroTexto);
     }
 }
