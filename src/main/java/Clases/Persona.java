@@ -13,8 +13,8 @@ public class Persona
         //modificarGenero (genero : String)
         //modificarOcupacion (ocupacion : String)
     //Atributos
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
 
     public void desplegarInformacion()
     {
